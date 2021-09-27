@@ -244,7 +244,7 @@ class Data():
         return instances
 
     def create_ner_dict(self):
-        file = "/home/mrt/data/arnor_nyt/1.0/ner2id_.json"
+        file = "data/ner2id.json"
         with open(file, 'r') as f:
             self.ner2id = json.load(f)
 
