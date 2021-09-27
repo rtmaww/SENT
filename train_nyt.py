@@ -107,6 +107,7 @@ class Trainer(nn.Module):
 
 
     def initialize(self):
+        torch.manual_seed(1)
         print("Initializing model...")
 
         self.options.vocab_size = self.data_test.get_vocab_size()
