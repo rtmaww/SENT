@@ -1,0 +1,1 @@
+{"[PAD]": 0, "O": 1, "PERSON": 2, "DATE": 3, "ORGANIZATION": 4, "NUMBER": 5, "DURATION": 6, "MISC": 7, "MONEY": 8, "LOCATION": 9, "ORDINAL": 10, "SET": 11, "TIME": 12, "PERCENT": 13}

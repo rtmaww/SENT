@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=4 python train_tacred_new.py --save_data_path data/test_tacred \
+                                            --save_model_path save_model/ \
+                                            --save_model_name test_data \
+                                            --optim sgd \
+                                            --lr 1.0 \
+                                            --vocab_file ../RSN-master-mytorch/RSN/pretrain/glove/glove.840B.300d_word2id.json \
+                                            --word2vec_file ../RSN-master-mytorch/RSN/pretrain/glove/glove.840B.300d_mat.npy \
+                                            --max_len 100 \
+                                            --batch_size 8 \
+                                            --train_data_file data/arnor_tacred_random_train_0.3.json \
+                                            --test_data_file data/arnor_tacred_random_test.json \
+                                            --dev_data_file data/arnor_tacred_random_dev.json
